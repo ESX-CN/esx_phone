@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/app.css" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Catamaran:400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -13,38 +12,38 @@
 		<div class="container">
 
 			<div class="head">
-				<span id="phone-icon"><img src="./img/icons/signal.png" /></span>
-				<span id="phone-number">unknown</span>
+				<span id="phone-icon"><img src="img/icons/signal.png" /></span>
+				<span id="phone-number">未知</span>
 			</div>
 
 			<div class="menu">
 				<ul class="home">
-					<li class="phone-icon" id="phone-icon-rep">Repertoire</li>
-					<li class="phone-icon" id="phone-icon-msg">Messages</li>
+					<li class="phone-icon" id="phone-icon-rep">联系人</li>
+					<li class="phone-icon" id="phone-icon-msg">短信</li>
 				</ul>
 			</div>
 
 			<div id="repertoire" class="screen">
 
-				<div class="head-screen"><span id="btn-head-back-rep" class="btn-head btn-head-back"></span>Répertoire<span id="btn-head-new-contact"
+				<div class="head-screen"><span id="btn-head-back-rep" class="btn-head btn-head-back"></span>联系人<span id="btn-head-new-contact"
 					 class="btn-head btn-head-new"></span></div>
 				<div class="container">
 					<div class="content-screen repertoire-list">
 						<div class="contact no-item online">
-							<p class="no-item">Aucun contact</p>
+							<p class="no-item">没有联系人</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div id="messages" class="screen">
-				<div class="head-screen"><span id="btn-head-back-msg" class="btn-head btn-head-back"></span>Messages
+				<div class="head-screen"><span id="btn-head-back-msg" class="btn-head btn-head-back"></span>短信
 					<!--<span id="btn-head-new-message" class="btn-head btn-head-new"></span>-->
 				</div>
 				<div class="container">
 					<div class="content-screen messages-list">
 						<div class="message no-item">
-							<p class="no-item">Aucun message</p>
+							<p class="no-item">没有短信息</p>
 						</div>
 					</div>
 				</div>
@@ -55,22 +54,22 @@
 				<div class="container">
 					<div class="content-screen">
 						<input type="hidden" id="writer_number" value="0" />
-						<textarea id="writer_message" placeholder="Votre message"></textarea>
-						<label><input type="checkbox" id="writer_anonyme" value="true">Anonyme</label>
-						<button id="writer_cancel">Annuler</button>
-						<button id="writer_send" class="marged">Envoyer</button>
+						<textarea id="writer_message" placeholder="请输入内容"></textarea>
+						<label><input type="checkbox" id="writer_anonyme" value="true">匿名</label>
+						<button id="writer_cancel">取消</button>
+						<button id="writer_send" class="marged">发送</button>
 					</div>
 				</div>
 			</div>
 
 			<div id="contact" class="screen">
-				<div class="head-screen"><span id="btn-head-back-contact" class="btn-head btn-head-back"></span>Ajouter un contact</div>
+				<div class="head-screen"><span id="btn-head-back-contact" class="btn-head btn-head-back"></span>添加联系人</div>
 				<div class="container">
 					<div class="content-screen">
-						<input type="text" id="contact_name" placeholder="Nom" />
-						<input type="text" id="contact_number" placeholder="Numéro" />
-						<button id="contact_cancel">Annuler</button>
-						<button id="contact_send">Ajouter</button>
+						<input type="text" id="contact_name" placeholder="名称" />
+						<input type="text" id="contact_number" placeholder="号码" />
+						<button id="contact_cancel">取消</button>
+						<button id="contact_send">添加</button>
 					</div>
 				</div>
 			</div>
@@ -81,7 +80,7 @@
 	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
 	<script src="scripts/mustache.min.js"></script>
 	<script src="scripts/app.js"></script>
-
+	
 </body>
 
 </html>

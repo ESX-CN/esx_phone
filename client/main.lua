@@ -308,3 +308,9 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
+
+RegisterNetEvent('esx:showServerNotification')
+AddEventHandler('esx:showServerNotification', function(msg,...)
+	ESX.ShowNotification(_U(msg,...))
+end)
