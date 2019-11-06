@@ -1,4 +1,4 @@
-Locales['zh'] = {
+Locales['tc'] = {
     ['new_message'] = '~b~您有壹個新信息:~s~ %s',
     ['press_take_call'] = '%s - 按 ~INPUT_CONTEXT~ 接聽電話',
     ['taken_call'] = '~y~%s~s~ 接聽了電話',
