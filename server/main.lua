@@ -169,6 +169,7 @@ AddEventHandler('esx_phone:send', function(phoneNumber, message, anon, position)
 	end
 end)
 
+RegisterServerEvent('esx_phone:registerNumber')
 AddEventHandler('esx_phone:registerNumber', function(number, type, sharePos, hasDispatch, hideNumber, hidePosIfAnon)
 	local hideNumber    = hideNumber    or false
 	local hidePosIfAnon = hidePosIfAnon or false
